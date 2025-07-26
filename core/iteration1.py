@@ -1,7 +1,8 @@
-# A very naive keylogger! Starts listening to input and writes everything out to a file.
+# Iteration 1: Logs all keystrokes to terminal
 
 import keyboard
 
+# Prints all keystrokes to terminal
 def print_key(e):
     print(e.name)
     
