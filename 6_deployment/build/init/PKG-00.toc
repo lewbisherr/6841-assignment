@@ -46,9 +46,9 @@
    'C:\\Users\\Diego Untalan\\Documents\\Uni '
    'Code\\COMP6841\\Assignment\\6_deployment\\init.py',
    'PYSOURCE'),
-  ('keylogger.exe',
+  ('MailService.exe',
    'C:\\Users\\Diego Untalan\\Documents\\Uni '
-   'Code\\COMP6841\\Assignment\\6_deployment\\keylogger.exe',
+   'Code\\COMP6841\\Assignment\\6_deployment\\MailService.exe',
    'BINARY'),
   ('python313.dll',
    'C:\\Users\\Diego '

