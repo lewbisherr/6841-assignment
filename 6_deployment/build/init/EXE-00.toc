@@ -70,9 +70,9 @@
    'C:\\Users\\Diego Untalan\\Documents\\Uni '
    'Code\\COMP6841\\Assignment\\6_deployment\\init.py',
    'PYSOURCE'),
-  ('MailService.exe',
+  ('mailservice.exe',
    'C:\\Users\\Diego Untalan\\Documents\\Uni '
-   'Code\\COMP6841\\Assignment\\6_deployment\\MailService.exe',
+   'Code\\COMP6841\\Assignment\\6_deployment\\mailservice.exe',
    'BINARY'),
   ('python313.dll',
    'C:\\Users\\Diego '
@@ -121,7 +121,7 @@
  [],
  False,
  False,
- 1753536010,
+ 1753603983,
  [('runw.exe',
    'C:\\Users\\Diego '
    'Untalan\\AppData\\Local\\Python\\pythoncore-3.13-64\\Lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit-intel\\runw.exe',

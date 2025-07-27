@@ -16,9 +16,9 @@
  {},
  0,
  [],
- [('MailService.exe',
+ [('mailservice.exe',
    'C:\\Users\\Diego Untalan\\Documents\\Uni '
-   'Code\\COMP6841\\Assignment\\6_deployment\\MailService.exe',
+   'Code\\COMP6841\\Assignment\\6_deployment\\mailservice.exe',
    'DATA')],
  '3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit '
  '(AMD64)]',
@@ -426,14 +426,6 @@
    'C:\\Users\\Diego '
    'Untalan\\AppData\\Local\\Python\\pythoncore-3.13-64\\Lib\\ast.py',
    'PYMODULE'),
-  ('_colorize',
-   'C:\\Users\\Diego '
-   'Untalan\\AppData\\Local\\Python\\pythoncore-3.13-64\\Lib\\_colorize.py',
-   'PYMODULE'),
-  ('_py_abc',
-   'C:\\Users\\Diego '
-   'Untalan\\AppData\\Local\\Python\\pythoncore-3.13-64\\Lib\\_py_abc.py',
-   'PYMODULE'),
   ('tracemalloc',
    'C:\\Users\\Diego '
    'Untalan\\AppData\\Local\\Python\\pythoncore-3.13-64\\Lib\\tracemalloc.py',
@@ -441,6 +433,14 @@
   ('fnmatch',
    'C:\\Users\\Diego '
    'Untalan\\AppData\\Local\\Python\\pythoncore-3.13-64\\Lib\\fnmatch.py',
+   'PYMODULE'),
+  ('_py_abc',
+   'C:\\Users\\Diego '
+   'Untalan\\AppData\\Local\\Python\\pythoncore-3.13-64\\Lib\\_py_abc.py',
+   'PYMODULE'),
+  ('_colorize',
+   'C:\\Users\\Diego '
+   'Untalan\\AppData\\Local\\Python\\pythoncore-3.13-64\\Lib\\_colorize.py',
    'PYMODULE'),
   ('stringprep',
    'C:\\Users\\Diego '
@@ -482,9 +482,9 @@
    'C:\\Users\\Diego '
    'Untalan\\AppData\\Local\\Python\\pythoncore-3.13-64\\Lib\\pathlib\\_abc.py',
    'PYMODULE')],
- [('MailService.exe',
+ [('mailservice.exe',
    'C:\\Users\\Diego Untalan\\Documents\\Uni '
-   'Code\\COMP6841\\Assignment\\6_deployment\\MailService.exe',
+   'Code\\COMP6841\\Assignment\\6_deployment\\mailservice.exe',
    'BINARY'),
   ('python313.dll',
    'C:\\Users\\Diego '
@@ -532,17 +532,57 @@
    'C:\\Users\\Diego Untalan\\Documents\\Uni '
    'Code\\COMP6841\\Assignment\\6_deployment\\build\\init\\base_library.zip',
    'DATA')],
- [('linecache',
+ [('io',
+   'C:\\Users\\Diego '
+   'Untalan\\AppData\\Local\\Python\\pythoncore-3.13-64\\Lib\\io.py',
+   'PYMODULE'),
+  ('enum',
+   'C:\\Users\\Diego '
+   'Untalan\\AppData\\Local\\Python\\pythoncore-3.13-64\\Lib\\enum.py',
+   'PYMODULE'),
+  ('sre_constants',
+   'C:\\Users\\Diego '
+   'Untalan\\AppData\\Local\\Python\\pythoncore-3.13-64\\Lib\\sre_constants.py',
+   'PYMODULE'),
+  ('sre_parse',
+   'C:\\Users\\Diego '
+   'Untalan\\AppData\\Local\\Python\\pythoncore-3.13-64\\Lib\\sre_parse.py',
+   'PYMODULE'),
+  ('linecache',
    'C:\\Users\\Diego '
    'Untalan\\AppData\\Local\\Python\\pythoncore-3.13-64\\Lib\\linecache.py',
    'PYMODULE'),
-  ('traceback',
+  ('re._parser',
    'C:\\Users\\Diego '
-   'Untalan\\AppData\\Local\\Python\\pythoncore-3.13-64\\Lib\\traceback.py',
+   'Untalan\\AppData\\Local\\Python\\pythoncore-3.13-64\\Lib\\re\\_parser.py',
    'PYMODULE'),
-  ('abc',
+  ('re._constants',
    'C:\\Users\\Diego '
-   'Untalan\\AppData\\Local\\Python\\pythoncore-3.13-64\\Lib\\abc.py',
+   'Untalan\\AppData\\Local\\Python\\pythoncore-3.13-64\\Lib\\re\\_constants.py',
+   'PYMODULE'),
+  ('re._compiler',
+   'C:\\Users\\Diego '
+   'Untalan\\AppData\\Local\\Python\\pythoncore-3.13-64\\Lib\\re\\_compiler.py',
+   'PYMODULE'),
+  ('re._casefix',
+   'C:\\Users\\Diego '
+   'Untalan\\AppData\\Local\\Python\\pythoncore-3.13-64\\Lib\\re\\_casefix.py',
+   'PYMODULE'),
+  ('re',
+   'C:\\Users\\Diego '
+   'Untalan\\AppData\\Local\\Python\\pythoncore-3.13-64\\Lib\\re\\__init__.py',
+   'PYMODULE'),
+  ('codecs',
+   'C:\\Users\\Diego '
+   'Untalan\\AppData\\Local\\Python\\pythoncore-3.13-64\\Lib\\codecs.py',
+   'PYMODULE'),
+  ('collections',
+   'C:\\Users\\Diego '
+   'Untalan\\AppData\\Local\\Python\\pythoncore-3.13-64\\Lib\\collections\\__init__.py',
+   'PYMODULE'),
+  ('locale',
+   'C:\\Users\\Diego '
+   'Untalan\\AppData\\Local\\Python\\pythoncore-3.13-64\\Lib\\locale.py',
    'PYMODULE'),
   ('types',
    'C:\\Users\\Diego '
@@ -552,73 +592,53 @@
    'C:\\Users\\Diego '
    'Untalan\\AppData\\Local\\Python\\pythoncore-3.13-64\\Lib\\warnings.py',
    'PYMODULE'),
-  ('keyword',
+  ('operator',
    'C:\\Users\\Diego '
-   'Untalan\\AppData\\Local\\Python\\pythoncore-3.13-64\\Lib\\keyword.py',
+   'Untalan\\AppData\\Local\\Python\\pythoncore-3.13-64\\Lib\\operator.py',
    'PYMODULE'),
   ('_collections_abc',
    'C:\\Users\\Diego '
    'Untalan\\AppData\\Local\\Python\\pythoncore-3.13-64\\Lib\\_collections_abc.py',
    'PYMODULE'),
-  ('genericpath',
+  ('functools',
    'C:\\Users\\Diego '
-   'Untalan\\AppData\\Local\\Python\\pythoncore-3.13-64\\Lib\\genericpath.py',
+   'Untalan\\AppData\\Local\\Python\\pythoncore-3.13-64\\Lib\\functools.py',
    'PYMODULE'),
-  ('sre_parse',
+  ('keyword',
    'C:\\Users\\Diego '
-   'Untalan\\AppData\\Local\\Python\\pythoncore-3.13-64\\Lib\\sre_parse.py',
-   'PYMODULE'),
-  ('copyreg',
-   'C:\\Users\\Diego '
-   'Untalan\\AppData\\Local\\Python\\pythoncore-3.13-64\\Lib\\copyreg.py',
+   'Untalan\\AppData\\Local\\Python\\pythoncore-3.13-64\\Lib\\keyword.py',
    'PYMODULE'),
   ('ntpath',
    'C:\\Users\\Diego '
    'Untalan\\AppData\\Local\\Python\\pythoncore-3.13-64\\Lib\\ntpath.py',
    'PYMODULE'),
-  ('operator',
+  ('stat',
    'C:\\Users\\Diego '
-   'Untalan\\AppData\\Local\\Python\\pythoncore-3.13-64\\Lib\\operator.py',
+   'Untalan\\AppData\\Local\\Python\\pythoncore-3.13-64\\Lib\\stat.py',
    'PYMODULE'),
-  ('sre_compile',
+  ('abc',
    'C:\\Users\\Diego '
-   'Untalan\\AppData\\Local\\Python\\pythoncore-3.13-64\\Lib\\sre_compile.py',
+   'Untalan\\AppData\\Local\\Python\\pythoncore-3.13-64\\Lib\\abc.py',
    'PYMODULE'),
-  ('codecs',
+  ('genericpath',
    'C:\\Users\\Diego '
-   'Untalan\\AppData\\Local\\Python\\pythoncore-3.13-64\\Lib\\codecs.py',
+   'Untalan\\AppData\\Local\\Python\\pythoncore-3.13-64\\Lib\\genericpath.py',
+   'PYMODULE'),
+  ('heapq',
+   'C:\\Users\\Diego '
+   'Untalan\\AppData\\Local\\Python\\pythoncore-3.13-64\\Lib\\heapq.py',
    'PYMODULE'),
   ('weakref',
    'C:\\Users\\Diego '
    'Untalan\\AppData\\Local\\Python\\pythoncore-3.13-64\\Lib\\weakref.py',
    'PYMODULE'),
-  ('locale',
+  ('sre_compile',
    'C:\\Users\\Diego '
-   'Untalan\\AppData\\Local\\Python\\pythoncore-3.13-64\\Lib\\locale.py',
+   'Untalan\\AppData\\Local\\Python\\pythoncore-3.13-64\\Lib\\sre_compile.py',
    'PYMODULE'),
-  ('io',
+  ('traceback',
    'C:\\Users\\Diego '
-   'Untalan\\AppData\\Local\\Python\\pythoncore-3.13-64\\Lib\\io.py',
-   'PYMODULE'),
-  ('reprlib',
-   'C:\\Users\\Diego '
-   'Untalan\\AppData\\Local\\Python\\pythoncore-3.13-64\\Lib\\reprlib.py',
-   'PYMODULE'),
-  ('stat',
-   'C:\\Users\\Diego '
-   'Untalan\\AppData\\Local\\Python\\pythoncore-3.13-64\\Lib\\stat.py',
-   'PYMODULE'),
-  ('enum',
-   'C:\\Users\\Diego '
-   'Untalan\\AppData\\Local\\Python\\pythoncore-3.13-64\\Lib\\enum.py',
-   'PYMODULE'),
-  ('collections',
-   'C:\\Users\\Diego '
-   'Untalan\\AppData\\Local\\Python\\pythoncore-3.13-64\\Lib\\collections\\__init__.py',
-   'PYMODULE'),
-  ('_weakrefset',
-   'C:\\Users\\Diego '
-   'Untalan\\AppData\\Local\\Python\\pythoncore-3.13-64\\Lib\\_weakrefset.py',
+   'Untalan\\AppData\\Local\\Python\\pythoncore-3.13-64\\Lib\\traceback.py',
    'PYMODULE'),
   ('encodings.zlib_codec',
    'C:\\Users\\Diego '
@@ -1108,41 +1128,21 @@
    'C:\\Users\\Diego '
    'Untalan\\AppData\\Local\\Python\\pythoncore-3.13-64\\Lib\\encodings\\__init__.py',
    'PYMODULE'),
-  ('functools',
+  ('reprlib',
    'C:\\Users\\Diego '
-   'Untalan\\AppData\\Local\\Python\\pythoncore-3.13-64\\Lib\\functools.py',
+   'Untalan\\AppData\\Local\\Python\\pythoncore-3.13-64\\Lib\\reprlib.py',
    'PYMODULE'),
-  ('re._parser',
+  ('copyreg',
    'C:\\Users\\Diego '
-   'Untalan\\AppData\\Local\\Python\\pythoncore-3.13-64\\Lib\\re\\_parser.py',
+   'Untalan\\AppData\\Local\\Python\\pythoncore-3.13-64\\Lib\\copyreg.py',
    'PYMODULE'),
-  ('re._constants',
+  ('_weakrefset',
    'C:\\Users\\Diego '
-   'Untalan\\AppData\\Local\\Python\\pythoncore-3.13-64\\Lib\\re\\_constants.py',
-   'PYMODULE'),
-  ('re._compiler',
-   'C:\\Users\\Diego '
-   'Untalan\\AppData\\Local\\Python\\pythoncore-3.13-64\\Lib\\re\\_compiler.py',
-   'PYMODULE'),
-  ('re._casefix',
-   'C:\\Users\\Diego '
-   'Untalan\\AppData\\Local\\Python\\pythoncore-3.13-64\\Lib\\re\\_casefix.py',
-   'PYMODULE'),
-  ('re',
-   'C:\\Users\\Diego '
-   'Untalan\\AppData\\Local\\Python\\pythoncore-3.13-64\\Lib\\re\\__init__.py',
+   'Untalan\\AppData\\Local\\Python\\pythoncore-3.13-64\\Lib\\_weakrefset.py',
    'PYMODULE'),
   ('posixpath',
    'C:\\Users\\Diego '
    'Untalan\\AppData\\Local\\Python\\pythoncore-3.13-64\\Lib\\posixpath.py',
-   'PYMODULE'),
-  ('sre_constants',
-   'C:\\Users\\Diego '
-   'Untalan\\AppData\\Local\\Python\\pythoncore-3.13-64\\Lib\\sre_constants.py',
-   'PYMODULE'),
-  ('heapq',
-   'C:\\Users\\Diego '
-   'Untalan\\AppData\\Local\\Python\\pythoncore-3.13-64\\Lib\\heapq.py',
    'PYMODULE'),
   ('os',
    'C:\\Users\\Diego '

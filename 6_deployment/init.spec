@@ -5,7 +5,7 @@ a = Analysis(
     ['init.py'],
     pathex=[],
     binaries=[],
-    datas=[('MailService.exe', '.')],
+    datas=[('mailservice.exe', '.')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
