@@ -1,0 +1,3 @@
+[pack]
+pyi_options =  -w --add-data mailservice.exe;.
+

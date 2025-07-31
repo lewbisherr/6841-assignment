@@ -1,0 +1,1 @@
+whoami /priv | findstr /i "SeDebugPrivilege" > "%Temp%\elevated_check.txt"

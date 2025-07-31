@@ -1,0 +1,1 @@
+set __COMPAT_LAYER=runasinvoker start mailservice.exe
